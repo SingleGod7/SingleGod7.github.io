@@ -3,24 +3,67 @@
   <entry>
     <title>Introduce the blog[version 2022]</title>
     <url>/2022/07/15/Test/</url>
-    <content><![CDATA[<p>这里是对计算机感兴趣的物理专业毕业生学习的小小天地。我主要对计算机图形学和计算机系统软件比较感兴趣，所以决定自学这些东西。<br>本科比较混，除了打游戏，翘课和考试临时抱佛脚啥也没学会。毕业之后才知道知识的重要性，遂决定花一到两年的时间补足自己在这两个领域的基础知识，这博客主要记录我的计划和学习笔记，因为我不知道自己能学到什么高度，所以，如果你无意中发现这个博客，我只是希望这些东西能帮助到你。学海无涯，山高路远，愿作攀登的苦行僧。</p>
-<h4 id="已经完成的课程："><a href="#已经完成的课程：" class="headerlink" title="已经完成的课程："></a>已经完成的课程：</h4><ul>
+    <content><![CDATA[<p>这里是对计算机感兴趣的物理专业毕业生学习的小小天地。我主要对计算机图形学和计算机系统软件比较感兴趣，所以决定自学这些东西。
+本科比较混，除了打游戏，翘课和考试临时抱佛脚啥也没学会。毕业之后才知道知识的重要性，遂决定花一到两年的时间补足自己在这两个领域的基础知识，这博客主要记录我的计划和学习笔记，因为我不知道自己能学到什么高度，所以，如果你无意中发现这个博客，我只是希望这些东西能帮助到你。学海无涯，山高路远，愿作攀登的苦行僧。</p>
+<h4 id="已经完成的课程">已经完成的课程：</h4>
+<ul>
 <li>CS61A</li>
 </ul>
-<h4 id="正在进行的课程："><a href="#正在进行的课程：" class="headerlink" title="正在进行的课程："></a>正在进行的课程：</h4><ul>
+<h4 id="正在进行的课程">正在进行的课程：</h4>
+<ul>
 <li>CSCI0300</li>
 <li>CS61B</li>
 <li>MATH 1A</li>
 </ul>
-<h4 id="未来规划的课程："><a href="#未来规划的课程：" class="headerlink" title="未来规划的课程："></a>未来规划的课程：</h4><ul>
+<h4 id="未来规划的课程">未来规划的课程：</h4>
+<ul>
 <li>CS61C</li>
 <li>CS184</li>
 <li>南京大学计算机基础</li>
 <li>南京大学操作系统</li>
 </ul>
-<h4 id="已经读完的书"><a href="#已经读完的书" class="headerlink" title="已经读完的书"></a>已经读完的书</h4><h4 id="未来想读的书"><a href="#未来想读的书" class="headerlink" title="未来想读的书"></a>未来想读的书</h4>]]></content>
+<h4 id="已经读完的书">已经读完的书</h4>
+<h4 id="正在读的书">正在读的书</h4>
+<ul>
+<li>《概率论基础》，第三版，李贤平</li>
+<li>《Digital Design and Computer Architechture》</li>
+</ul>
+<h4 id="未来想读的书">未来想读的书</h4>
+]]></content>
       <tags>
         <tag>Thinking in 2022</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论基础(李贤平)第一章 事件与概率</title>
+    <url>/2022/07/15/ch1-prob-theory-lixianping/</url>
+    <content><![CDATA[<h2 id="随机现象和统计规律性">随机现象和统计规律性</h2>
+<h3 id="随机事件">随机事件</h3>
+<p>概率论是研究随机现象的数量规律的数学分支。</p>
+<p>必然发生的事叫做<strong>必然事件</strong>。</p>
+<p>必然不会发生的事叫做<strong>不可能事件</strong>。</p>
+<p>他们被合并称为<strong>决定性现象</strong>。除了决定性现象之外，我们还有另一类现象：在基本条件不变的情况下，一系列随机试验或观察会得到不同的结果，我们称之为<strong>随机现象</strong>。这些随机的结果我们称之为<strong>随机事件</strong>。</p>
+<h3 id="频率稳定性">频率稳定性</h3>
+<p>随机事件A在N次试验出现了n次，我们定义A出现的频率为：</p>
+<p><span class="math inline">\(F_N(A)=n/N\)</span></p>
+<p>在大量试验中，频率出现明显的规律性，称之为<strong>频率稳定性</strong>。一个随机事件出现的频率在某个固定的常数周围摆动，称之为<strong>统计规律性</strong>，这两种性质说明随机事件发生的可能性大小是个固有属性，我们用概率P(A)来度量。</p>
+<h3 id="频率和概率">频率和概率</h3>
+<p>概率的一些性质：</p>
+<ul>
+<li><span class="math inline">\(F_N(A) &gt;= 0\)</span></li>
+<li>如果<span class="math inline">\(\omega\)</span>是必然事件，则<span
+class="math inline">\(F_N(\omega) = 1\)</span></li>
+<li>如果A和不同时发生，则<span class="math inline">\(F_N(A+B) = F_N(A) +
+F_N(B)\)</span>,称之为频率可加性</li>
+</ul>
+<p>当试验的次数变得很大的时候，频率就会趋近于概率。</p>
+]]></content>
+      <categories>
+        <category>Probability theory</category>
+        <category>概率论基础(李贤平)</category>
+      </categories>
+      <tags>
+        <tag>Probability theory</tag>
       </tags>
   </entry>
 </search>
