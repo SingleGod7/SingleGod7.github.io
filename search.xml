@@ -69,7 +69,8 @@
   <entry>
     <title>Introduction to computing system (Patt &amp; Patel):Chapter 1</title>
     <url>/2022/09/11/Introduction-to-computing-system-Patt-Patel-Chapter-1/</url>
-    <content><![CDATA[<h2 id="overview-of-the-book">Overview of the book</h2>
+    <content><![CDATA[<h1 id="content">Content</h1>
+<h2 id="overview-of-the-book">Overview of the book</h2>
 <ol style="list-style-type: decimal">
 <li>Encode information by binary code and relative operation</li>
 <li>Physical layer (electron to transistor) and combine them to form the more complicated device -&gt; combine these structure to von Neanamm machine (in this book: LC-3 aka. little computer 3)</li>
@@ -82,10 +83,712 @@
 <h2 id="two-core-notion-in-this-book">Two core notion in this book</h2>
 <ul>
 <li>The notion of abstraction</li>
-<li>Don't treat hardware and software sperately ## Two very important ideas</li>
+<li>Don't treat hardware and software sperately</li>
+</ul>
+<h2 id="two-very-important-ideas">Two very important ideas</h2>
+<ul>
 <li>All computer can do the same things if enough memory is given</li>
 <li>Problem should be transformed for computers to solve</li>
 </ul>
+<h1 id="exercise-solution">Exercise Solution</h1>
+<p>Made by myself. I'm not sure if it's correct.</p>
+<h4 id="section">1.1</h4>
+<ul>
+<li>All computer can do the same things if enough memory is given</li>
+<li>Problem should be transformed for computers to solve</li>
+</ul>
+<h4 id="section-1">1.2</h4>
+<p>No, no matter what language you use. You can't express more than the ISA.</p>
+<h4 id="section-2">1.3</h4>
+<p>It's difficult to premote the precision.</p>
+<h4 id="section-3">1.4</h4>
+<p>maybe, yeah, It's maybe.</p>
+<h4 id="section-4">1.5</h4>
+<ol style="list-style-type: lower-alpha">
+<li><strong>a</strong> and <strong>x</strong> to the x-box, their output to the +-box with <strong>b</strong></li>
+<li>4 +-box with ordered input <strong>w</strong>,<strong>x</strong>,<strong>y</strong>,<strong>z</strong>.then their output along with 1/4 to the x-box</li>
+<li>One +-box with input <strong>a</strong> and <strong>b</strong>, then, their output to the x-box along with itself.</li>
+</ol>
+<h4 id="section-5">1.6</h4>
+<p>I do like him. I do/ like him. I do what he does. I do like/ him. I really like him and I can't lose him:(.</p>
+<h4 id="section-6">1.7</h4>
+<p>When there is only one airport in the city, it saves time. When there are lots of airports and we don't want to the nearest airport. It cause negative consequences</p>
+<h4 id="section-7">1.8</h4>
+<ul>
+<li>I use telescope to see the man in the park.</li>
+<li>I see a man in the park and he take a telescope with him. It doesn't meet the property of definiteness</li>
+</ul>
+<h4 id="section-8">1.9</h4>
+<p>Yes, but it should be definiteness finteness and effective computability.</p>
+<h4 id="section-9">1.10</h4>
+<p>Finiteness : the process should end in the finite time. Effect computablity : all the step of the process should be computable Definiteness : the step should be describe in the precisious way.</p>
+<h4 id="section-10">1.11</h4>
+<p>Finiteness: if you reach a, then go to b, if you reach b then go to a. Effect computablity : she is a girl Definiteness : select the best one in the candidate</p>
+<h4 id="section-11">1.12</h4>
+<p>a.not Definiteness b.not finiteness c.yes d.no maybe infinite e.yes</p>
+<h4 id="section-12">1.13</h4>
+<p>The same. Subtract = add and negetive</p>
+<h4 id="section-13">1.14</h4>
+<p>a.120 b.C++, x86, x86-microArch1,2,3 c.still the same</p>
+<h4 id="section-14">1.15</h4>
+<p>More readable but less efficient</p>
+<h4 id="section-15">1.16</h4>
+<p>opcode, oprand, address mode</p>
+<h4 id="section-16">1.17</h4>
+<p>ISA define the code and it's operation. Microarchitecture implement the opearation.</p>
+<h4 id="section-17">1.18</h4>
+<p>One, Infinite</p>
+<h4 id="section-18">1.19</h4>
+<p>Problem (Sort) -&gt;Alogrithm (Quick Sort) -&gt;Program (QuickSort.cpp) -&gt;ISA (x86) -&gt;microarchitechture (Intel i7-7700H) -&gt;Logic circuit (.....) -&gt;Device (......)</p>
+<h4 id="section-19">1.20</h4>
+<p>Yes. The above layer don't need know the details of the lying layer to work.</p>
+<h4 id="section-20">1.21</h4>
+<p>High-level language if we buy the source code, we need compile the source code to the real program we can use. If we just buy the software, we just buy the ISA code.</p>
+<h4 id="section-21">1.22</h4>
+<p>The first, It's always difficult to solve the problem :(.</p>
+<h4 id="section-22">1.23</h4>
+<p>When you update the hardware, we don't need to change our software.The higer layer of the ISA don't need to change, because the ISA works fine at the new microarchitechture.</p>
+]]></content>
+      <categories>
+        <category>Computer Architecture</category>
+        <category>Introduction to computing system (Undergraduate 1st year)</category>
+      </categories>
+      <tags>
+        <tag>Introduction to computing system (Patt &amp; Patel)</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to computing system (Patt &amp; Patel):Chapter 2</title>
+    <url>/2022/09/11/Introduction-to-computing-system-Patt-Patel-Chapter-2/</url>
+    <content><![CDATA[<h1 id="content">Content</h1>
+<h2 id="main-content">Main content</h2>
+<ul>
+<li>Bits and Datatypes</li>
+<li>Integer Datatype
+<ul>
+<li>Unsigned Interagers</li>
+<li>Signed Interages with 1's and 2's complement code</li>
+</ul></li>
+<li>Conversion between Binary and Decimal</li>
+<li>Operation on bits
+<ul>
+<li>Arithmmetic operation</li>
+<li>Logical operation</li>
+</ul></li>
+<li>Other Representation
+<ul>
+<li>Float number</li>
+<li>ASCII code</li>
+<li>Hexadecimal Notation</li>
+</ul></li>
+</ul>
+<h1 id="exercise">Exercise</h1>
+<p>Made by myself. I'm not sure if it's correct.</p>
+<h4 id="section">2.1</h4>
+<p>there are <span class="math inline">\(2^n\)</span> .</p>
+<h4 id="section-1">2.2</h4>
+<p><span class="math inline">\(log_2 26 = 4\)</span> If we need both lowercase and uppercase we need 1 more bit, totally 5.</p>
+<h4 id="section-2">2.3</h4>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(log_2 400 = 9\)</span></li>
+<li><span class="math inline">\(2^9 - 400 = 112\)</span></li>
+</ol>
+<h4 id="section-3">2.4</h4>
+<p>There are <span class="math inline">\(2^n\)</span> unsigned intager numers,ranged from 0 to <span class="math inline">\(2^n - 1\)</span>.</p>
+<h4 id="section-4">2.5</h4>
+<table>
+<thead>
+<tr class="header">
+<th>number</th>
+<th>2's complement</th>
+<th>signed magnitude</th>
+<th>1' complement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>-7</td>
+<td>11001</td>
+<td>10111</td>
+<td>11000</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>00111</td>
+<td>00111</td>
+<td>00111</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-5">2.6</h4>
+<p>10000</p>
+<h4 id="section-6">2.7</h4>
+<table>
+<thead>
+<tr class="header">
+<th>number</th>
+<th>2's complement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>-8</td>
+<td>1000</td>
+</tr>
+<tr class="even">
+<td>-7</td>
+<td>1001</td>
+</tr>
+<tr class="odd">
+<td>-6</td>
+<td>1010</td>
+</tr>
+<tr class="even">
+<td>-5</td>
+<td>1011</td>
+</tr>
+<tr class="odd">
+<td>-4</td>
+<td>1100</td>
+</tr>
+<tr class="even">
+<td>-3</td>
+<td>1101</td>
+</tr>
+<tr class="odd">
+<td>-2</td>
+<td>1110</td>
+</tr>
+<tr class="even">
+<td>-1</td>
+<td>1111</td>
+</tr>
+<tr class="odd">
+<td>0</td>
+<td>0000</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>0001</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>0010</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>0011</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>0100</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>0101</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>0110</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>0111</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-7">2.8</h4>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(2^7 - 1 = 127\)</span>, binary: 01111111</li>
+<li><span class="math inline">\(2^7 = 128\)</span>, binary: 10000000</li>
+<li><span class="math inline">\(2^n - 1\)</span></li>
+<li><span class="math inline">\(2^n\)</span></li>
+</ol>
+<h4 id="section-8">2.9</h4>
+<p><span class="math inline">\(log_2 6.02 * 10^{23} = 591\)</span></p>
+<h4 id="section-9">2.10</h4>
+<ol style="list-style-type: lower-alpha">
+<li>-6</li>
+<li>90</li>
+<li>-2</li>
+<li>14800</li>
+</ol>
+<h4 id="section-10">2.11</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0110 0110</li>
+<li>0100 0000</li>
+<li>0010 0001</li>
+<li>1000 0000</li>
+<li>0111 1111</li>
+</ol>
+<h4 id="section-11">2.12</h4>
+<p>It can divided by 4.</p>
+<h4 id="section-12">2.13</h4>
+<ol style="list-style-type: lower-alpha">
+<li>1111 1010</li>
+<li>1111 1000</li>
+<li>0001 1001</li>
+<li>0000 0001</li>
+</ol>
+<h4 id="section-13">2.14</h4>
+<ol style="list-style-type: lower-alpha">
+<li>1100</li>
+<li>1010</li>
+<li>1111</li>
+<li>1011</li>
+<li>0000 (overflowed)</li>
+</ol>
+<h4 id="section-14">2.15</h4>
+<p>elimate the last digit and divide by 2.</p>
+<h4 id="section-15">2.16</h4>
+<table>
+<thead>
+<tr class="header">
+<th>number</th>
+<th>2's complement</th>
+<th>1's complement</th>
+<th>magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7 + -7</td>
+<td>0111 + 1001 = (1)000</td>
+<td>0111 + 1000 = 1111</td>
+<td>1111 + 0111 = 0110</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-16">2.17</h4>
+<table>
+<thead>
+<tr class="header">
+<th>index</th>
+<th>binary</th>
+<th>dexcimal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>a</td>
+<td>1100</td>
+<td>-4</td>
+</tr>
+<tr class="even">
+<td>b</td>
+<td>0101 1000</td>
+<td>84</td>
+</tr>
+<tr class="odd">
+<td>c</td>
+<td>0011</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>d</td>
+<td>11</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-17">2.18</h4>
+<table>
+<thead>
+<tr class="header">
+<th>index</th>
+<th>binary</th>
+<th>dexcimal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>a</td>
+<td>1100</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>b</td>
+<td>0101 1000</td>
+<td>88</td>
+</tr>
+<tr class="odd">
+<td>c</td>
+<td>1011</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td>d</td>
+<td>11</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-18">2.19</h4>
+<p>-27 to binary : 1110 0101 (8 bits) 1111 1111 1110 0101 (16bits) 1111 1111 1111 1111 1111 1111 1110 0101 (32 bits) sign-extension helps bit-extension and don't change its value.</p>
+<h4 id="section-19">2.20</h4>
+<ol style="list-style-type: lower-alpha">
+<li>1111</li>
+<li>0000</li>
+<li>1000 (overflow)</li>
+<li>0111</li>
+<li>0000</li>
+</ol>
+<h4 id="section-20">2.21</h4>
+<p>When 2 number add with the same sign, but result in the other sign.</p>
+<h4 id="section-21">2.22</h4>
+<p>1000 0000 0000 0000 + 1000 0000 0000 0000</p>
+<h4 id="section-22">2.23</h4>
+<p>The sum is smaller than one of the origin.</p>
+<h4 id="section-23">2.24</h4>
+<p>1000 0000 0000 0000 + 1000 0000 0000 0000</p>
+<h4 id="section-24">2.25</h4>
+<p>Because the sum of them is in the range of the original one.</p>
+<h4 id="section-25">2.26</h4>
+<ol style="list-style-type: lower-alpha">
+<li>seven</li>
+<li>011 1111 63</li>
+<li>111 1111 127</li>
+</ol>
+<h4 id="section-26">2.27</h4>
+<p>Yes. Sum of two positive numbers presents a negetive one. Overflow.</p>
+<h4 id="section-27">2.28</h4>
+<p>All the input is one.</p>
+<h4 id="section-28">2.29</h4>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>Y</th>
+<th>X AND Y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-29">2.30</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0101 0111</li>
+<li>100</li>
+<li>1010 0000</li>
+<li>0001 0100</li>
+<li>0000</li>
+<li>0000</li>
+</ol>
+<h4 id="section-30">2.31</h4>
+<p>one of the input is 1.</p>
+<h4 id="section-31">2.32</h4>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>Y</th>
+<th>X OR Y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-32">2.33</h4>
+<ol style="list-style-type: lower-alpha">
+<li>1101 0111</li>
+<li>111</li>
+<li>1111 0100</li>
+<li>1011 1111</li>
+<li>1101</li>
+<li>1101</li>
+</ol>
+<h4 id="section-33">2.34</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0111</li>
+<li>0111</li>
+<li>1101</li>
+<li>0110</li>
+</ol>
+<h4 id="section-34">2.35</h4>
+<p>Use for change a specific bit.</p>
+<h4 id="section-35">2.36</h4>
+<ol style="list-style-type: lower-alpha">
+<li>AND 1111 1011</li>
+<li>OR 0100 0100</li>
+<li>AND 0000 0000</li>
+<li>OR 1111 1111</li>
+<li>First we need a mask operation : And 0000 0100 Then times 32. If we add the final pattern, we always get a 0.</li>
+</ol>
+<h4 id="section-36">2.37</h4>
+<p>A1 = <strong>n</strong> AND 1000 A2 = (NOT <strong>n</strong>) AND 1000 B1 = <strong>m</strong> AND 1000 B2 = (NOT <strong>m</strong>) AND 1000 C1 = (NOT <strong>s</strong>) AND 1000 C2 = <strong>s</strong> AND 1000 RESLUT = (A1 AND B1 AND C1) OR (A2 AND B2 AND C2)</p>
+<h4 id="section-37">2.38</h4>
+<p>Using the symbol defined above. RESULT = A1 AND B1 AND C1</p>
+<h4 id="section-38">2.39</h4>
+<p>a.3.75 = <span class="math inline">\(1.111 * 2^1\)</span> , So the representation is 0 100 00000 1110 0000 0000 0000 0000 000 b. <span class="math inline">\(55\frac{23}{64} = 1.10111010111 * 2^5\)</span> , So the representation is 1 100 00100 1011 1010 1110 0000 0000 0000 c. <span class="math inline">\(3.1415927 = 1.10010010000111111011010110100111111011010001100101110011 * 2^1\)</span> So the representation is 1 100 00000 1001 0010 0001 1111 1011 010 , not so precious d. <span class="math inline">\(64000 = 1.1111010 * 2^{15}\)</span> So the representation is 0 100 01110 1111 0100 0000 0000 0000 0000</p>
+<h4 id="section-39">2.40</h4>
+<ol style="list-style-type: lower-alpha">
+<li>2</li>
+<li>-17</li>
+<li>INF</li>
+<li>-2.25</li>
+</ol>
+<h4 id="section-40">2.41</h4>
+<ol style="list-style-type: lower-alpha">
+<li>127</li>
+<li>-149</li>
+</ol>
+<h4 id="section-41">2.42</h4>
+<p>He use the ASCII code of the number 5 and 8. Actually ACSII code of 5 and 8 is 53 and 56. The sum of them is 109 which represents the character m in the ACSII code.</p>
+<h4 id="section-42">2.43</h4>
+<ol style="list-style-type: lower-alpha">
+<li>Hello!</li>
+<li>hELLO!</li>
+<li>Computers!</li>
+<li>LC-2</li>
+</ol>
+<h4 id="section-43">2.44</h4>
+<p>Add, because the number in ASCII is continous. We just add some bias to get the ASCII number.</p>
+<h4 id="section-44">2.45</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0xD1AF</li>
+<li>0x1F</li>
+<li>0x1</li>
+<li>0xEDB2</li>
+</ol>
+<h4 id="section-45">2.46</h4>
+<ol style="list-style-type: lower-alpha">
+<li>1 0000</li>
+<li>0100 0000 0001</li>
+<li>1111 0111 0011 0001</li>
+<li>0000 1111 0001 1110 0010 1101</li>
+<li>1011 1100 1010 1101</li>
+</ol>
+<h4 id="section-46">2.47</h4>
+<ol style="list-style-type: lower-alpha">
+<li>-16</li>
+<li>2047</li>
+<li>22 d.-32768</li>
+</ol>
+<h4 id="section-47">2.48</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0001 0000 0000</li>
+<li>0110 1111</li>
+<li>0111 0101 1011 1100 1101 0001 0101</li>
+<li>1101 0100</li>
+</ol>
+<h4 id="section-48">2.49</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0x2939</li>
+<li>0x6E36</li>
+<li>0x46F4</li>
+<li>0xF1A8</li>
+<li>c and d is overflow</li>
+</ol>
+<h4 id="section-49">2.50</h4>
+<ol style="list-style-type: lower-alpha">
+<li>5468</li>
+<li>BBFD</li>
+<li>FFFF</li>
+<li>32A3</li>
+</ol>
+<h4 id="section-50">2.51</h4>
+<ol style="list-style-type: lower-alpha">
+<li>0x644B</li>
+<li>0x4428E800</li>
+<li>0x48656c6c6f</li>
+</ol>
+<h4 id="section-51">2.52</h4>
+<table>
+<thead>
+<tr class="header">
+<th>rules</th>
+<th>0x434F4D50</th>
+<th>0x55544552</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unsigned binary</td>
+<td>1,129,270,608</td>
+<td>1,431,586,130</td>
+</tr>
+<tr class="even">
+<td>1's complement</td>
+<td>1,129,270,608</td>
+<td>1,431,586,130</td>
+</tr>
+<tr class="odd">
+<td>2's complement</td>
+<td>1,129,270,608</td>
+<td>1,431,586,130</td>
+</tr>
+<tr class="even">
+<td>IEEE 754 floating point</td>
+<td>207.302001953125</td>
+<td>14587137097728</td>
+</tr>
+<tr class="odd">
+<td>ASCII string</td>
+<td>COMP</td>
+<td>UTER</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-52">2.53</h4>
+<table>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>B</th>
+<th><span class="math inline">\(Q_1\)</span></th>
+<th><span class="math inline">\(Q_2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(Q_2\)</span> = A OR B</p>
+<h4 id="section-53">2.54</h4>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+<th><span class="math inline">\(Q_1\)</span></th>
+<th><span class="math inline">\(Q_2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-54">2.55</h4>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(4^{3} - 1 = 63\)</span></li>
+<li><span class="math inline">\(4^n -1\)</span></li>
+<li>023 + 221 = 310</li>
+<li><span class="math inline">\(222|_4\)</span></li>
+<li>11011.11</li>
+<li>0 100 00011 1011 1100 0000 0000 0000 000</li>
+<li>I don't know what's the question means. From my point of view, depends on the number of operations. Basically there are arithmetic operations like multiply and add and logical operations like AND, OR, NOT,XOR.</li>
+</ol>
+<h4 id="section-55">2.56</h4>
+<p>0xE5 = 1110 0101 sign : 1-&gt; -1 exp: 8 + 4 - 7 -&gt; 5 fraction: 101 -&gt; 1.101 = 1.5625 totally: <span class="math inline">\(1.5625 * -1 * 2^5 = 52\)</span>(shift first maybe faster)</p>
 ]]></content>
       <categories>
         <category>Computer Architecture</category>
