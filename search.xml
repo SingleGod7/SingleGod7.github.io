@@ -3,17 +3,18 @@
   <entry>
     <title>Introduce the blog[version 2022]</title>
     <url>/2022/07/15/Test/</url>
-    <content><![CDATA[<p>这里是对计算机感兴趣的物理专业毕业生学习的小小天地。我主要对计算机图形学和计算机系统软件比较感兴趣，所以决定自学这些东西。
-本科比较混，除了打游戏，翘课和考试临时抱佛脚啥也没学会。毕业之后才知道知识的重要性，遂决定花一到两年的时间补足自己在这两个领域的基础知识，这博客主要记录我的计划和学习笔记，因为我不知道自己能学到什么高度，所以，如果你无意中发现这个博客，我只是希望这些东西能帮助到你。学海无涯，山高路远，愿作攀登的苦行僧。</p>
+    <content><![CDATA[<p>这里是对计算机感兴趣的物理专业毕业生学习的小小天地。我主要对计算机图形学和计算机系统软件比较感兴趣，所以决定自学这些东西。 本科比较混，除了打游戏，翘课和考试临时抱佛脚啥也没学会。毕业之后才知道知识的重要性，遂决定花一到两年的时间补足自己在这两个领域的基础知识，这博客主要记录我的计划和学习笔记，因为我不知道自己能学到什么高度，所以，如果你无意中发现这个博客，我只是希望这些东西能帮助到你。学海无涯，山高路远，愿作攀登的苦行僧。</p>
 <h4 id="已经完成的课程">已经完成的课程：</h4>
 <ul>
 <li>CS61A</li>
 </ul>
 <h4 id="正在进行的课程">正在进行的课程：</h4>
 <ul>
-<li>CSCI0300</li>
-<li>CS61B</li>
-<li>MATH 1A</li>
+<li>CSCI0300 <span class="citation">@lecture12</span></li>
+<li>CS61B <span class="citation">@Week</span> 12</li>
+<li>MATH 1A <span class="citation">@Chapter2</span></li>
+<li>CS110L <span class="citation">@Week2</span></li>
+<li>CS106B <span class="citation">@Week2</span></li>
 </ul>
 <h4 id="未来规划的课程">未来规划的课程：</h4>
 <ul>
@@ -25,8 +26,9 @@
 <h4 id="已经读完的书">已经读完的书</h4>
 <h4 id="正在读的书">正在读的书</h4>
 <ul>
-<li>《概率论基础》，第三版，李贤平</li>
-<li>《Digital Design and Computer Architechture》</li>
+<li>《概率论基础》，第三版，李贤平 <span class="citation">@第二章</span></li>
+<li>《Introduction to computing system (Patt &amp; Patel)》 <span class="citation">@Chapter3</span></li>
+<li>《Crafting interpreters》 <span class="citation">@Chapter4</span></li>
 </ul>
 <h4 id="未来想读的书">未来想读的书</h4>
 ]]></content>
@@ -59,26 +61,9 @@
       <categories>
         <category>Probability theory</category>
         <category>概率论基础(李贤平)</category>
-        <category>Book</category>
-        <category>概率论基础(李贤平)</category>
       </categories>
       <tags>
         <tag>Probability theory</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Introduction to computing system (Patt &amp; Patel):Chapter 1</title>
-    <url>/2022/09/11/Introduction-to-computing-system-Patt-Patel-Chapter-1/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>Computer Architecture</category>
-        <category>Book</category>
-        <category>Introduction to computing system (Undergraduate 1st year)</category>
-        <category>Introduction to computing system (Patt &amp; Patel)</category>
-      </categories>
-      <tags>
-        <tag>Introduction to computing system (Patt &amp; Patel)</tag>
       </tags>
   </entry>
 </search>
