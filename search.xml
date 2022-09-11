@@ -66,4 +66,33 @@
         <tag>Probability theory</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Introduction to computing system (Patt &amp; Patel):Chapter 1</title>
+    <url>/2022/09/11/Introduction-to-computing-system-Patt-Patel-Chapter-1/</url>
+    <content><![CDATA[<h2 id="overview-of-the-book">Overview of the book</h2>
+<ol style="list-style-type: decimal">
+<li>Encode information by binary code and relative operation</li>
+<li>Physical layer (electron to transistor) and combine them to form the more complicated device -&gt; combine these structure to von Neanamm machine (in this book: LC-3 aka. little computer 3)</li>
+<li>program in LC-3 using our own language</li>
+<li>program in LC-3 using assembly language</li>
+<li>program in LC-3 using data structure</li>
+<li>deal with the I/O in LC-3</li>
+<li>C/C++ language</li>
+</ol>
+<h2 id="two-core-notion-in-this-book">Two core notion in this book</h2>
+<ul>
+<li>The notion of abstraction</li>
+<li>Don't treat hardware and software sperately ## Two very important ideas</li>
+<li>All computer can do the same things if enough memory is given</li>
+<li>Problem should be transformed for computers to solve</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Computer Architecture</category>
+        <category>Introduction to computing system (Undergraduate 1st year)</category>
+      </categories>
+      <tags>
+        <tag>Introduction to computing system (Patt &amp; Patel)</tag>
+      </tags>
+  </entry>
 </search>
