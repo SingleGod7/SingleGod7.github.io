@@ -51,19 +51,34 @@
 <p>概率的一些性质：</p>
 <ul>
 <li><span class="math inline">\(F_N(A) &gt;= 0\)</span></li>
-<li>如果<span class="math inline">\(\omega\)</span>是必然事件，则<span
-class="math inline">\(F_N(\omega) = 1\)</span></li>
-<li>如果A和不同时发生，则<span class="math inline">\(F_N(A+B) = F_N(A) +
-F_N(B)\)</span>,称之为频率可加性</li>
+<li>如果<span class="math inline">\(\omega\)</span>是必然事件，则<span class="math inline">\(F_N(\omega) = 1\)</span></li>
+<li>如果A和不同时发生，则<span class="math inline">\(F_N(A+B) = F_N(A) + F_N(B)\)</span>,称之为频率可加性</li>
 </ul>
 <p>当试验的次数变得很大的时候，频率就会趋近于概率。</p>
 ]]></content>
       <categories>
         <category>Probability theory</category>
         <category>概率论基础(李贤平)</category>
+        <category>Book</category>
+        <category>概率论基础(李贤平)</category>
       </categories>
       <tags>
         <tag>Probability theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to computing system (Patt &amp; Patel):Chapter 1</title>
+    <url>/2022/09/11/Introduction-to-computing-system-Patt-Patel-Chapter-1/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>Computer Architecture</category>
+        <category>Book</category>
+        <category>Introduction to computing system (Undergraduate 1st year)</category>
+        <category>Introduction to computing system (Patt &amp; Patel)</category>
+      </categories>
+      <tags>
+        <tag>Introduction to computing system (Patt &amp; Patel)</tag>
       </tags>
   </entry>
 </search>
