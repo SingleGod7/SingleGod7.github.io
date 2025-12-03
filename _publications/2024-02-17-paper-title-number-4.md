@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 4"
+title: "A text-information-controlled diffusion model for multimodal whole-body PET synthesis from MRI"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2025-10-14-conference-paper
+excerpt: 'This paper is about sythensis PET from T1w MRI using text and image controlled diffusion model'
+date: 2025-10-17
+venue: 'Fifth International Conference on Biomedicine and Bioinformatics Engineering'
+paperurl: ''
+citation: 'Jiang Y, Jin Y, Chen Q, et al. A text-information-controlled diffusion model for multimodal whole-body PET synthesis from MRI[C]//Fifth International Conference on Biomedicine and Bioinformatics Engineering (ICBBE 2025). SPIE, 2025, 13971: 102-107.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+Positron Emission Tomography (PET) is crucial for staging and monitoring systemic diseases, but its application is often constrained by high costs, radiation exposure, and limited availability. Synthesizing PET images from routinely acquired Magnetic Resonance Imaging (MRI) presents a promising alternative. This study introduces a flexible framework for synthesizing whole-body PET images of three different tracer(¹⁸F-Fluorodeoxyglucose (FDG), 68Ga-Prostate-Specific Membrane Antigen (PSMA), and 68Ga-DOTATATE) directly from MRI using a single generative model. Our method enhances a pre-trained Stable Diffusion Model by incorporating two critical components: a control module that conditions on MRI for precise anatomical alignment, and a fine-tuned text encoder to specify the desired PET tracer. This dual-conditioning architecture enables a single model to synthesize multiple, high-fidelity PET modalities with strict structural control. Quantitative and qualitative evaluations demonstrate that our method outperforms conventional image-to-image translation baselines in terms of image fidelity and realism. Bland-Altman analysis revealed low bias for all three tracers. Our results validate that a text-conditioned diffusion model can serve as a powerful and scalable tool for high-fidelity, multi-tracer PET synthesis.
